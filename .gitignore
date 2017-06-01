@@ -10,3 +10,6 @@ node_modules
 
 # sass
 .sass-cache
+
+# compiled css
+style.css
