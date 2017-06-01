@@ -5,13 +5,14 @@
   "main": "main.js",
   "dependencies": {
     "d3": "^4.9.1",
-    "browserify": "^14.4.0",
-    "jquery": "^3.2.1"
+    "browserify": "^14.3.0",
+    "jquery": "^3.2.1",
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify --debug main.js -o bundle.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"

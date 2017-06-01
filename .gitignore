@@ -7,3 +7,6 @@ bundle.js
 
 # npm stuff
 node_modules
+
+# sass
+.sass-cache
