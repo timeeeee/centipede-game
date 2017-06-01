@@ -1,10 +1,3 @@
-const d3 = require('d3');
-const $ = require('jquery');
-
-const centipede = require('./centipede.js');
-
-
-
 $(function load() {
     for (let i = 0; i < 10; i++) {
 	$("body").append("<p class='container'></p>");

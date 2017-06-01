@@ -1,11 +1,9 @@
 # centipede-game
 evolve mixed strategies for the centipede game
 
-You will need npm to install the dependencies from package.json.
-For javascript linting (`make lint`) you'll need jshint.
+You will need sass and jshint.
 
 After cloning:
 
-1. Run `npm install` to install dependencies
-2. Run `make` to compile css and javscript.
-3. Open index.html in a browser.
+1. Run `make` to compile css.
+2. Open index.html in a browser.

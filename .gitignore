@@ -2,9 +2,6 @@
 *~
 \#*\#
 
-# compiled js
-bundle.js
-
 # npm stuff
 node_modules
 

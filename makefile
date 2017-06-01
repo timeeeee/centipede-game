@@ -1,11 +1,8 @@
 .PHONY: all
-all: style.css bundle.js
+all: style.css
 
 style.css: style.scss
 	sass style.scss > style.css
-
-bundle.js: js/main.js js/centipede.js
-	browserify js/main.js -o bundle.js
 
 .PHONY: lint
 lint:
@@ -13,4 +10,4 @@ lint:
 
 .PHONY: clean
 clean:
-	rm -f style.css bundle.js *~
+	rm -f style.css *~
