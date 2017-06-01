@@ -3,6 +3,6 @@ evolve mixed strategies for the centipede game
 
 After cloning:
 
-# Run `npm install` to install dependencies
-# Run `browserify main.js -o bundle.js` or `npm run-script build` to bundle the javascript
-# Open index.html in a browser.
+1. Run `npm install` to install dependencies
+2. Run `npm run-script build` to bundle the javascript
+3. Open index.html in a browser.
