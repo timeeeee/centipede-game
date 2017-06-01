@@ -13,4 +13,4 @@ lint:
 
 .PHONY: clean
 clean:
-	rm -f style.css bundle.js
+	rm -f style.css bundle.js *~
