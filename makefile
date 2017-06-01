@@ -4,7 +4,7 @@ all: style.css bundle.js
 style.css: style.scss
 	sass style.scss > style.css
 
-bundle.js: main.js centipede.js
+bundle.js: js/main.js js/centipede.js
 	browserify js/main.js -o bundle.js
 
 .PHONY: lint
