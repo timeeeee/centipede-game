@@ -2,11 +2,5 @@
 *~
 \#*\#
 
-# npm stuff
-node_modules
-
-# sass
-.sass-cache
-
-# compiled css
-style.css
+# python cache
+__pycache__
